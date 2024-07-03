@@ -1,0 +1,11 @@
+An SQL index is a subset of the data in the columns of a table that are logically arranged in either ascending or descending order.
+
+DB2® for i supports two types of indexes: binary radix tree indexes and encoded vector indexes (EVIs).
+
+Index Strategy: Db2® for i provides two basic means for accessing tables: a table scan and an index-based retrieval. 
+Index-based retrieval is typically more efficient than table scan when less than 20% of the table rows are selected.
+
+There are two kinds of persistent indexes: 
+  - binary radix tree indexes, which have been available since 1988, and 
+  - encoded vector indexes (EVIs), which became available in 1998 with V4R2. 
+Both types of indexes are useful in improving performance for certain kinds of queries.
